@@ -1,0 +1,277 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* CONFIGURAÇÕES DO HEADER */
+.navbar {
+    border: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+
+/* background do header e display */
+.container {
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-item {
+    margin-left: 8vw;
+    width: 67px;
+    height: 60px;
+}
+
+.item-login
+
+/* botão login */
+    {
+    /* Posição do botão e tamanho */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.item-cad
+
+/* botão cadastro */
+    {
+    /* Posição do botão e tamanho */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.item-cad a,
+.item-login a {
+    text-decoration: none;
+}
+
+/* FIM DO HEADER */
+body {
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    border: 0;
+    margin: 0;
+    
+    background-image: url(https://2.bp.blogspot.com/_FTBGP0C5QE4/TFrIbjhvOFI/AAAAAAAAATM/M3lDljYW500/s1600/P1110152.JPG);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background: linear-gradient(104.18deg, rgba(17, 17, 17, 0.91) 42%, rgba(0, 0, 0, 0.25) 87.48%),url(https://2.bp.blogspot.com/_FTBGP0C5QE4/TFrIbjhvOFI/AAAAAAAAATM/M3lDljYW500/s1600/P1110152.JPG);
+    box-sizing: border-box;
+    filter: blur (14px);
+
+}
+
+/* !!!! CONFIGURAÇÕES PARA PÁGINA LOGIN  !!!! */
+
+main#login {
+    display: flex;
+    border-radius: 30px;
+    padding: 0px;
+
+    height: 42.7vh;
+    width: 37.1vw;
+
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+
+
+
+    background-color: #ffffff;
+    box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+}
+
+
+
+main#login form p {
+    font-size: 2vw;
+    margin-bottom: 3vh;
+    position: relative;
+    left: 25%;
+    top: 4vh;
+}
+
+/* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA LOGIN  !!!! */
+
+
+/* !!!! CONFIGURAÇÕES PARA PÁGINA CADASTRO  !!!! */
+
+main#cadastro {
+    position: relative;
+    display: flex;
+    border-radius: 3vh;
+    padding: 0;
+    align-items: center;
+
+    height: 50.7vh;
+    width: 37.1vw;
+
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+
+    background-color: #ffffff;
+    box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+}
+
+
+main#cadastro form p {
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    top: 4vh;
+}
+
+/* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA CADASTRO  !!!! */
+
+
+/* !!!! CONFIGURAÇÕES PARA PÁGINA DENÚNCIA  !!!! */
+
+main#denuncia {
+
+
+    display: flex;
+    border-radius: 3vh;
+    padding: 0;
+
+    min-height: 37vh;
+    min-width: 19vw;
+    height: 90vh;
+    width: 37vw;
+
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+
+    background-color: #ffffff;
+    box-shadow: rgb(99, 99, 99) 0px 0px 4vh;
+}
+
+
+h1{
+padding-top: 10vh;
+font-family: Montserrat;
+font-style: italic;
+font-weight: 600;
+font-size: 72px;
+line-height: 88px;
+text-align: center;
+letter-spacing: -0.015em;
+color: #fff;
+}
+
+main#denuncia form p {
+    font-size: 2vw;
+    padding-left: 3.8vw;
+    margin-bottom: 1vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.015em;
+    left: auto;
+    top: 2vh;
+}
+
+/* !!!! FIM DAS CONFIGURAÇÕES PARA PÁGINA DENÚNCIA  !!!! */
+
+
+/* Configurações gerais dos inputs do site */
+
+form input {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3.8vw;
+    margin: auto;
+
+    border-radius: 50px;
+    border: solid #cfcfcf 1px;
+
+    width: 32vw;
+
+    min-height: 5vh;
+    height: 5.5vh;
+
+    top: 9%;
+    left: 7%;
+}
+
+
+
+
+.buttonconfirm {
+    color: Black;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 20vw;
+    padding-left: 0px;
+    margin-left: 17%;
+
+    border-radius: 50px;
+    background-color: #FFCD37;
+
+    border-bottom: solid #FFCD37 3px;
+    border-right: solid #FFCD37 1px;
+    border-left: solid #FFCD37 1px;
+    border-top: solid #FFCD37 3px;
+
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#buttondenuncia {
+    color: Black;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 20vw;
+    padding-left: 0px;
+    margin-top: 10vh;
+    margin-left: 25%;
+
+    border-radius: 50px;
+    background-color: #FFCD37;
+
+    border-bottom: solid #FFCD37 3px;
+    border-right: solid #FFCD37 1px;
+    border-left: solid #FFCD37 1px;
+    border-top: solid #FFCD37 3px;
+
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.buttonconfirm,
+#buttondenuncia,
+.item-login,
+.item-cad :hover {
+    cursor: pointer;
+}
+
+#rodape {
+    text-align: center;
+    font-size: 12px;
+    vertical-align: bottom;
+    color: white;
+}

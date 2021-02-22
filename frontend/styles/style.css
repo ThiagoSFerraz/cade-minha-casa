@@ -1,0 +1,40 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #FFC107;
+}
+.fundo {
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#background {
+
+        position: absolute;
+        border: 0;
+        margin: 0;
+        
+        background-image: url(https://2.bp.blogspot.com/_FTBGP0C5QE4/TFrIbjhvOFI/AAAAAAAAATM/M3lDljYW500/s1600/P1110152.JPG);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        background: linear-gradient(104.18deg, rgba(17, 17, 17, 0.91) 42%, rgba(0, 0, 0, 0.25) 87.48%),url(https://2.bp.blogspot.com/_FTBGP0C5QE4/TFrIbjhvOFI/AAAAAAAAATM/M3lDljYW500/s1600/P1110152.JPG);
+        box-sizing: border-box;
+        filter: blur (14px);
+        
+    
+    }
+
+
+
+    
